@@ -17,11 +17,11 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	margin-right: 20px;
-	margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: 14px;
 }
 
 .brand {
@@ -136,3 +136,22 @@ img.search{
   text-decoration: underline;
   color: #404040;
 }
+.tooltip .tooltiptext {
+  visibility: hidden; 
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  top: 325px;
+  right: 160px;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+ input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
