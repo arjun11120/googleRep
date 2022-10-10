@@ -3,6 +3,9 @@ html, body {
      margin: 0;
      padding: 0;
 }
+.clear{
+	clear:both;
+}
  #wrapper {
      min-height: 100%;
      position: relative;
